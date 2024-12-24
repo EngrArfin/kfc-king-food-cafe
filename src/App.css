@@ -1,0 +1,106 @@
+/* App.css */
+
+/* General Body Styling */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4; /* Soft, neutral background */
+  color: #333; /* Dark gray text for readability */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Hero Section Styling */
+.hero-section {
+  background-color: #6b4f3a; /* Deep coffee brown */
+  color: white;
+  padding: 80px 40px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+  max-width: 800px;
+  margin: 20px 0;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-top: 10px;
+  font-weight: lighter;
+}
+
+/* Intro Section Styling */
+.intro-section {
+  background-color: #f1e1c6; /* Soft cream color */
+  color: #6b4f3a; /* Deep brown text for contrast */
+  font-size: 1.2rem;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+.intro-section h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+/* Call to Action Section */
+.cta-section {
+  margin-top: 40px;
+}
+
+.cta-button {
+  background-color: #6b4f3a; /* Matching coffee brown */
+  color: white;
+  padding: 12px 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #4e3629; /* Darker brown on hover */
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .intro-section h2 {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+  }
+}
