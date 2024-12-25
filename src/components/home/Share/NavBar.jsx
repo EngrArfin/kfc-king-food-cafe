@@ -17,9 +17,9 @@ function NavBar() {
               alt="Logo"
               className="w-12 h-12 rounded-full shadow-lg"
             />
-            <h1 className="text-xl lg:text-2xl font-bold tracking-wide">
+            {/*  <h1 className="text-xl lg:text-2xl font-bold tracking-wide">
               KFC King Food Cafe
-            </h1>
+            </h1> */}
           </div>
 
           {/* Search Bar */}
@@ -27,7 +27,7 @@ function NavBar() {
             <input
               type="text"
               placeholder="Search for food, beverages..."
-              className="flex-grow px-4 py-2 rounded-l-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500"
+              className="flex-grow px-4 py-2 rounded-l-lg border border-gray-900 focus:outline-none focus:ring-2 focus:ring-amber-500"
             />
             <button className="bg-amber-500 hover:bg-amber-600 text-white px-4 py-2 rounded-r-lg transition duration-300">
               <i className="fas fa-search"></i>
@@ -56,7 +56,7 @@ function NavBar() {
 
             {/* Login / Signup */}
             <button className="bg-amber-500 hover:bg-amber-600 text-white px-4 py-2 rounded-lg font-semibold">
-              Login / Signup
+              Log In
             </button>
 
             {/* Sidebar Toggle Button */}
