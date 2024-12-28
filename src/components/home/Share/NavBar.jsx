@@ -1,6 +1,7 @@
 import logo from "../../../ui/logo.png";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -55,9 +56,12 @@ function NavBar() {
             </div>
 
             {/* Login / Signup */}
-            <button className="bg-amber-500 hover:bg-amber-600 text-white px-4 py-2 rounded-lg font-semibold">
+            <Link
+              to="/login"
+              className="bg-amber-500 hover:bg-amber-600 text-white px-4 py-2 rounded-lg font-semibold"
+            >
               Log In
-            </button>
+            </Link>
 
             {/* Sidebar Toggle Button */}
             <button

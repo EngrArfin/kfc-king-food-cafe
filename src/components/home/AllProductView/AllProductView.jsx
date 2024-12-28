@@ -1,10 +1,10 @@
-import NavBar from "../../components/home/Share/NavBar";
-import SideHeader from "../../components/home/SideHeader/SideHeader";
+import NavBar from "../Share/NavBar";
+import SideHeader from "../SideHeader/SideHeader";
 
-const SubLandingPage = () => {
+const AllProductView = () => {
   return (
     <div
-      className="min-h-screen  mt-28 relative"
+      className="min-h-screen  mt-24 relative"
       style={{ backgroundColor: "#F5F4F2" }}
     >
       <NavBar />
@@ -103,4 +103,4 @@ const SubLandingPage = () => {
   );
 };
 
-export default SubLandingPage;
+export default AllProductView;

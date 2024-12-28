@@ -1,5 +1,6 @@
 import { FaRegBookmark } from "react-icons/fa";
 import { IoIosStar } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const RestaurantList = () => {
   // Data for the restaurants
@@ -38,10 +39,6 @@ const RestaurantList = () => {
     },
   ];
 
-  /*  const handleOrderNow = (restaurantTitle) => {
-    alert(`Order placed for ${restaurantTitle}!`);
-  }; */
-
   return (
     <div className="p-4">
       <h1 className="text-3xl font-bold mb-6">Restaurants</h1>
@@ -79,12 +76,12 @@ const RestaurantList = () => {
                   Free Delivery
                 </span>
               )}
-              {/* <button
+              <Link
+                to="/allProductView"
                 className="mt-4 bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold py-2 px-4 rounded"
-                onClick={() => handleOrderNow(restaurant.title)}
               >
                 Order Now
-              </button> */}
+              </Link>
             </div>
           </div>
         ))}
